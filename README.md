@@ -10,6 +10,6 @@ https://github.com/gh0st56
 https://www.facebook.com/andre.lorenci
 
 
-Real example: 
+Real example on a root-me.org ctf machine. 
 
-![Example of usage]()
+![Example of usage](https://github.com/gh0st56/PHP_privesc_info_gathering/blob/master/Screenshot%20from%202020-05-31%2017-16-52.png)

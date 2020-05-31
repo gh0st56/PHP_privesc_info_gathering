@@ -1,8 +1,8 @@
 # PHP_privesc_info_gathering
-This is a little php backdoor that collect information about the target to help in the work of privilege escalation.
+This is a little php backdoor that collect information about the target to help beginners to collect information in the work of privilege escalation. 
 
 Usage: 
-1 - First, as all php backdoor, you need to upload the php file on the server.
+1 - First of all you need to upload the php file on the server. (double extension, MIME type, etc...)
 2 - Second, you'll need to access this file through web and the php code will be executed and showed in the browser.
 
 Contact:
